@@ -1,6 +1,6 @@
 # E4L DevOps Platform - Setup Guide
 
-Complete CI/CD platform for E4L (Education for Life) application with staging and production environments, automated testing, and quality gates.
+Complete CI/CD platform for E4L (Energy for Life) application with staging and production environments, automated testing, and quality gates.
 
 ## 📦 Asset Composition
 
