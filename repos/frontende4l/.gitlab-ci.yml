@@ -75,7 +75,7 @@ integration_tests:
 
 docker_build_staging_frontend:
   stage: docker_build_staging
-  image: docker:24
+  image: docker:latest
   tags: [juno]
   needs: ["integration_tests"]
   rules:
@@ -181,7 +181,7 @@ acceptance_tests:
 
 docker_build_production_frontend:
   stage: docker_build_production
-  image: docker:24
+  image: docker:latest
   tags: [juno]
   needs: ["acceptance_tests"]
   rules:
